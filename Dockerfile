@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/playwright/python:v1.58.0-jammy
+FROM mcr.microsoft.com/playwright/python:v1.59.0-jammy
 
 # Install only what's needed
 RUN apt-get update && apt-get install -y \
